@@ -1,0 +1,96 @@
+import subprocess
+import time
+import signal
+import re
+import os
+
+cmake_prefix_path = os.environ['CMAKE_PREFIX_PATH']
+ld_library_path = os.environ['LD_LIBRARY_PATH']
+ament_prefix_path = os.environ['AMENT_PREFIX_PATH']
+
+try:
+  #  input('twist_filterノードを起動し、Enterを押してください。')
+
+    subprocess.run(['colcon', 'build'], cwd="btob", stdin=subprocess.DEVNULL)
+
+    env_file = open('env', 'w')
+    dump_env = subprocess.run(['python3', 'btob/install/_local_setup_util_sh.py', 'sh', 'bash'], stdout=env_file)
+    env_file.close()
+
+    env_file = open('env', 'r')
+    env_list = env_file.readlines()
+    paths = []
+    for data in env_list:
+        paths.append(re.sub('\$[A-Z_]*PATH', '', data.lstrip("export ").replace('"', '').strip()))
+    env_file.close()
+
+    ros2_node = subprocess.Popen(['ros2', 'run'{% for cnt in range( root[target_node] ['node'] | length )%}, '{{ root[target_node]['node'][cnt] }}'{% endfor %}], stdin=subprocess.DEVNULL)
+
+#{{ target_node }}の出力ここから
+    time.sleep(1)
+
+    arg_cmake = ''
+    arg_ld = ''
+    arg_ament = ''
+    for data in paths:
+        if 'CMAKE_PREFIX_PATH' in data:
+            arg_cmake = data + cmake_prefix_path
+        elif 'LD_LIBRARY_PATH' in data:
+            arg_ld = data + ld_library_path
+        elif 'AMENT_PREFIX_PATH' in data:
+            arg_ament = data + ament_prefix_path
+        else:
+            print("ERROE\n")
+            print(data)
+
+    {% for cnt in range( root[target_node] ['output'] | length )%}
+    {{ root[target_node] ['output'] [cnt] }}_file = open('result/{{ root[target_node] ['output'] [cnt] }}', 'w')
+    {% endfor %}
+
+    dump_{{ root[target_node]['output'][0] }} = subprocess.Popen(['env', arg_cmake, arg_ld, arg_ament, 'ros2', 'run', 'btob_node', 'listener'], stdout={{ root[target_node]['output'][0] }}_file)
+
+#{{ target_node }}の出力ここまで
+
+    time.sleep(3)   #ndt_mapを取り逃していたのでファイルに書き込む準備とbag再生の間をあける
+
+#{{ target_node }}の入力ここから
+    rosbag_play = subprocess.Popen(['ros2', 'bag', 'play', '{{ root[target_node]['input'] }}'], stdin=subprocess.DEVNULL)
+#{{ target_node }}の入力ここまで
+
+    rosbag_play.wait()
+
+except KeyboardInterrupt:
+    rosbag_play.send_signal(signal.SIGINT)
+    rosbag_play.wait()
+
+finally:
+    time.sleep(1)
+    subprocess.Popen(['killall', '-2', '{{ root[target_node]['node'][1] }}'], stdin=subprocess.DEVNULL)    #killallの対象とするプロセス名はros2 pkg executableで確認できる
+    subprocess.Popen(['killall', '-2', 'listener'], stdin=subprocess.DEVNULL)
+    print('完了')
+
+#{{ target_node }}
+#{% for item in root[target_node]['output'] %}
+
+#dump_{{ item }}.send_signal(signal.SIGINT)
+#dump_{{ item }}.wait()
+#{{ item }}_file.close()
+#{% endfor %}
+#{{ target_node }}
+
+dump_{{ root[target_node]['output'][0] }}.send_signal(signal.SIGINT)
+dump_{{ root[target_node]['output'][0] }}.wait()
+{{ root[target_node]['output'][0] }}_file.close()
+
+
+
+
+
+
+
+
+
+
+
+
+

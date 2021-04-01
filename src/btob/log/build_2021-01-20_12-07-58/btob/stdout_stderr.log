@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target topics_library[0m
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/topics_library.dir/src/listener.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtopics_library.so[0m
+[100%] Built target topics_library
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/lib/btob/listener
+-- Installing: /home/saitama1/b2b_t/btob/install/btob/lib/libtopics_library.so
+-- Set runtime path of "/home/saitama1/b2b_t/btob/install/btob/lib/libtopics_library.so" to ""
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/package_run_dependencies/btob
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/parent_prefix_path/btob
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/environment/path.dsv
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.bash
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.sh
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.zsh
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.dsv
+-- Installing: /home/saitama1/b2b_t/btob/install/btob/share/btob/package.dsv
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/packages/btob
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/rclcpp_components/btob
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/cmake/btobConfig.cmake
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/cmake/btobConfig-version.cmake
+-- Up-to-date: /home/saitama1/b2b_t/btob/install/btob/share/btob/package.xml

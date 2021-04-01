@@ -1,0 +1,16 @@
+/home/saitama1/b2b_t/btob/install/btob/lib/btob/listener
+/home/saitama1/b2b_t/btob/install/btob/lib/libtopics_library.so
+/home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/package_run_dependencies/btob
+/home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/parent_prefix_path/btob
+/home/saitama1/b2b_t/btob/install/btob/share/btob/environment/ament_prefix_path.dsv
+/home/saitama1/b2b_t/btob/install/btob/share/btob/environment/path.dsv
+/home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.bash
+/home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.sh
+/home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.zsh
+/home/saitama1/b2b_t/btob/install/btob/share/btob/local_setup.dsv
+/home/saitama1/b2b_t/btob/install/btob/share/btob/package.dsv
+/home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/packages/btob
+/home/saitama1/b2b_t/btob/install/btob/share/ament_index/resource_index/rclcpp_components/btob
+/home/saitama1/b2b_t/btob/install/btob/share/btob/cmake/btobConfig.cmake
+/home/saitama1/b2b_t/btob/install/btob/share/btob/cmake/btobConfig-version.cmake
+/home/saitama1/b2b_t/btob/install/btob/share/btob/package.xml
