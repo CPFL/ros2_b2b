@@ -1,12 +1,12 @@
 # ros2b2b
 
-## Tool Overview
+## Overview
 
 -ああ<br>
 -いい<br>
   
 
-## Version
+## Requirements
 
 **Autoware.Auto**<br>
 0.1.0
@@ -19,7 +19,7 @@ Foxy
 <br>
 20.04 LTS
 
-## Tool Steps
+## Steps
 
 ※事前にbagfile必要
 
