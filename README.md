@@ -9,7 +9,11 @@
 0.1.0
 
 **ROS 2**
+<br>
+Foxy
 
 **Ubuntu**
+<br>
+20.04 LTS
 
 ## Tool Steps
