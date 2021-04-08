@@ -18,7 +18,7 @@ Foxy
 
 ## Tool Steps
 
-※事前にbagfile
+※事前にbagfile必要
 
 1.ああ<br>
 2.いい<br>
