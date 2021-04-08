@@ -9,7 +9,6 @@
 ## Version
 
 **Autoware.Auto**<br>
-
 0.1.0
 
 **ROS 2**
