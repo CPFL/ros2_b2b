@@ -4,6 +4,6 @@
 
 ## Version
 <br>
-**Autoware.Auto**
+** Autoware.Auto **
 
 ## Tool Steps
