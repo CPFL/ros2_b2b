@@ -10,13 +10,9 @@
 
 Autoware.Auto 0.1.0
 
-**ROS 2**
-<br>
-Foxy
+ROS 2 Foxy
 
-**Ubuntu**
-<br>
-20.04 LTS
+Ubuntu 20.04 LTS
 
 ## Steps
 
