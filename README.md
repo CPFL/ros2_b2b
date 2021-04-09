@@ -22,3 +22,5 @@ Ubuntu 20.04 LTS
 2.いい<br>
 
 <img src="https://github.com/CPFL/ros2b2b/blob/main/src/result/kal_diff_pure_vehicle_vehicle_command_front_wheel_angle_rad.pdf" alt="エビフライトライアングル" title="サンプル">
+
+![秋田犬](https://github.com/CPFL/ros2b2b/blob/main/src/result/kal_diff_pure_vehicle_vehicle_command_front_wheel_angle_rad.pdf)
