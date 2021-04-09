@@ -21,7 +21,7 @@ class UpperFrame(tk.Frame):
             # config_gen = subprocess.Popen(['python3', rosbag_path2])
         super().__init__(master)
 
-        self.btn = tk.Button(self, text='bagファイルの生成', command=btn_click1)
+        self.btn = tk.Button(self, text='Generate bagfile', command=btn_click1)
         # self.btn.pack(anchor=tk.W)
         self.btn.grid(row=0, column=0, padx=2, pady=2)
 
@@ -31,7 +31,7 @@ class UpperFrame(tk.Frame):
         self.rosbag_entry1 = tk.Entry(self, width=50)
         self.rosbag_entry1.grid(row=0, column=2, padx=2, pady=2)
 
-        self.btn = tk.Button(self, text='config.yamlの生成', command=btn_click2)
+        self.btn = tk.Button(self, text='Generate config.yaml', command=btn_click2)
         # self.btn.pack(anchor=tk.W)
         self.btn.grid(row=1, column=0, padx=2, pady=2)
 
