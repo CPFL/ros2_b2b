@@ -4,7 +4,6 @@
 
 * The proposed framework can evaluate the porting for self-driving software.<br>
 * The proposed framework can perform tests with the same input data.<br>
-  * aa
   
 
 ## Requirements
