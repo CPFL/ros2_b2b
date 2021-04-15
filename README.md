@@ -2,8 +2,7 @@
 
 ## Overview
 
-* The proposed framework can evaluate the porting for self-driving software.<br>
-* The proposed framework can perform tests with the same input data.<br>
+The proposed framework stores and compares the output results of modules that are working accurately and previously ported modules with the same functionality. Experimental results show that the user can determine whether self-driving software using ROS 2 could be successfully ported to embedded platforms.
   
 
 ## Requirements
