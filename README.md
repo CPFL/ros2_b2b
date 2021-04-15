@@ -15,7 +15,7 @@ Ubuntu 20.04 LTS
 
 ## Steps
 
-※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.
+※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.<br>
 ※The config.yaml file should contain information about the nodes to be evaluated.
 
 1.First, run python3 rosbag_test_generator.py on hardware A.<br>
