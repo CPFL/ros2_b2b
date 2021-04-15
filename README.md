@@ -16,7 +16,7 @@ Ubuntu 20.04 LTS
 
 ## Steps
 
-※事前にbagfile必要
+※Requires a bagfile that contains the output topics of the nodes to be evaluated in advance.
 
 1.ああ<br>
 2.いい<br>
