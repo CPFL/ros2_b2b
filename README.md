@@ -20,9 +20,9 @@ Ubuntu 20.04 LTS
 
 1.First, run python3 rosbag_test_generator.py on hardware A.<br>
 2.Enter the path to the bagfile (relative to rosbag_test_generator.py) in the ROSBAG input field, and click the "Generate bagfile" button.<br>
-3.<br>
-4.<br>
-5.<br>
+3.Set the tolerance (tolerance is a relative error).<br>
+4.Select a node to evaluate (in this case, we are using the pure_pursuit node for evaluation).<br>
+5.Click the "Genarate source1.py" button.<br>
 6.<br>
 7.<br>
 8.<br>
