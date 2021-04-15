@@ -23,8 +23,8 @@ Ubuntu 20.04 LTS
 3.Set the tolerance (tolerance is a relative error).<br>
 4.Select a node to evaluate (in this case, we are using the pure_pursuit node for evaluation).<br>
 5.Click the "Genarate source1.py" button.<br>
-6.<br>
-7.<br>
+6.Click on the "Run of source1.py" button, and you will see the output results in the result folder.<br>
+7.Perform steps 1~6 again on hardware B and store the output result in the result folder of hardware A.<br>
 8.<br>
 9.<br>
 10.<br>
