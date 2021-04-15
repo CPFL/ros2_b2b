@@ -15,7 +15,7 @@ Ubuntu 20.04 LTS
 
 ## Steps
 
-※Requires a bagfile that contains the output topics of the nodes to be evaluated in advance.
+※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.
 
 1.First, run python3 rosbag_test_generator.py on hardware A.<br>
 2.Enter the path to the bagfile (relative to rosbag_test_generator.py) in the ROSBAG input field, and click the "Generate bagfile" button.<br>
