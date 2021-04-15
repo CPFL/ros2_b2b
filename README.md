@@ -7,7 +7,9 @@ The proposed framework stores and compares the output results of modules that ar
 
 ## Requirements
 
-'''Autoware.Auto 0.1.0'''
+'''
+Autoware.Auto 0.1.0
+'''
 
 ROS 2 Foxy
 
