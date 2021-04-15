@@ -30,6 +30,4 @@ Ubuntu 20.04 LTS
 9.From the output graphs, users can evaluate the porting of self-driving software.<br>
 
 
-<img src="https://github.com/CPFL/ros2b2b/blob/main/src/result/diff_pure_vehicle_vehicle_command_front_wheel_angle_rad_page-0001.jpg" alt="エビフライトライアングル" title="サンプル">
-
 ![秋田犬](https://github.com/CPFL/ros2b2b/blob/main/src/result/diff_pure_vehicle_vehicle_command_front_wheel_angle_rad_page-0001.jpg)
