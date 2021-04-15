@@ -18,7 +18,7 @@ Ubuntu 20.04 LTS
 ※Requires a bagfile that contains the input topics of the nodes to be evaluated in advance.<br>
 ※The config.yaml file should contain information about the nodes to be evaluated.
 
-1.First, run python3 rosbag_test_generator.py on hardware A.<br>
+1.'''First, run python3 rosbag_test_generator.py on hardware A.<br>'''
 2.Enter the path to the bagfile (relative to rosbag_test_generator.py) in the ROSBAG input field, and click the "Generate bagfile" button.<br>
 3.Set the tolerance (tolerance is a relative error).<br>
 4.Select a node to evaluate (in this case, we are using the pure_pursuit node for evaluation).<br>
